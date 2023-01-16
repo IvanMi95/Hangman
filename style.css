@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background: url(assets/vecteezy_wood-figure-hanged-with-rope-on-black-background_1963902.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  color: #D9C183;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.description {
+  font-size: 1.5rem;
+
+}
+
+.game {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+
+}
+
+.letter-buttons {
+  text-align: center;
+  color: #D9C183;
+  font-size: 2rem;
+}
+
+.letters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-transform: uppercase;
+}
+
+.letter {
+  width: 40px;
+  height: 40px;
+  background-color: #D9C183;
+  color: #00081C;
+  border: gold solid 1px;
+  border-radius: 10%;
+}
+
+.gameLines {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+
+.gameLetter {
+  width: 40px;
+  height: 40px;
+  border-bottom: #D9C183 solid 3px;
+  color: #D9C183;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.letter:hover {
+  background-color: #00081C;
+  color: #D9C183;
+}
+
+.letter.clicked {
+  opacity: .2;
+}
+
+.lives{
+  color: #D9C183;
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -15vh;
+  right: 39%;
+}
+ul {
+  list-style-type: none;
+}

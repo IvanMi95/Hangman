@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "random-words": "^1.2.0",
+    "requirejs": "^2.3.6",
+    "sweetalert2": "^11.4.36"
+  },
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "webpack": "^5.74.0"
+  }
+}
